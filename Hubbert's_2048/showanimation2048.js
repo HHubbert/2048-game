@@ -29,8 +29,5 @@ function updateScore(score) {
     $('#score').text(score);
 }
 
-function showGameOver(){
-
-}
 
 

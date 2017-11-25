@@ -31,7 +31,7 @@ document.addEventListener('touchend',function( event ){
     var deltaX = endX - startX ;
     var deltaY = endY - startY ;
 
-    if( Math.abs(deltaX) < 0.2*documentWidth && Math.abs(deltaY) < 0.2*documentWidth)
+    if( Math.abs(deltaX) < 0.1*documentWidth && Math.abs(deltaY) < 0.1*documentWidth)
         return;
 
     //x
@@ -256,7 +256,6 @@ function isGameOver() {
 
 function gameover() {
     alert("gameOver!")
-    // showGameOver();
 }
 
 
